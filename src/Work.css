@@ -1,0 +1,20 @@
+.gallery-container  {
+    padding-top: 10rem;
+    width: 90%;
+    margin: auto;
+}
+.gallery-container2  {
+    width: 90%;
+    margin: auto;
+}
+
+@media (min-width: 600px) {
+    .gallery-container  {
+        width: 70%;
+        height: auto;
+    }
+    .gallery-container2  {
+        width: 70%;
+        height: auto;
+    }
+}

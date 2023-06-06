@@ -1,0 +1,34 @@
+.background-cta2 {
+    background-image: url("background-house.jpg");
+    background-size: cover;
+    border-top: 3px solid #0C3C5B;
+}
+
+.dark-overlay {
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 2rem;
+}
+
+#cta {
+    font-family: "rubik", sans-serif;
+}
+
+.button-wrapper2 {
+    display: grid;
+    grid-template-columns: 40% 30%;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+.wwd {
+    color: white;
+}
+
+hr {
+    color: white;
+}
+
+.wwd-exp {
+    color: white;
+}

@@ -1,0 +1,31 @@
+.roof-header {
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+}
+
+.roof-wrapper {
+    padding-top: 8rem;
+    grid-template-columns: none;
+}
+.roof-div {
+    margin: auto;
+    padding-right: 1rem;
+    width: 100%;
+}
+
+.r-wrap {
+    padding-top: 6rem;
+}
+
+
+@media (min-width: 600px){
+    .roof-wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        align-items: center;
+        text-align: left;
+        }
+        .roof-div {
+            width: 80%;
+        }
+}

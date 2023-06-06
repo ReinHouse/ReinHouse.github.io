@@ -1,0 +1,95 @@
+.accordion {
+text-align: left;
+margin-top: 1rem;
+margin-bottom: 2rem;
+}
+
+.dark-overlay-ins {
+    background-color: rgba(0,0,0,0.6);
+    padding-bottom: 1rem;
+}
+
+ol {
+    font-family: "Rubik", sans-serif;
+    padding-bottom: 2rem;
+}
+
+#ins-hr {
+    color: white;
+    width: 40%;
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+.claims-wrapper {
+    width: 95%;
+    padding-top: 2rem;
+    margin: auto;
+    text-align: left;
+}
+
+.claims-steps {
+    font-family: "Rubik", sans-serif;
+    color: white;
+}
+
+.claims-process {
+    font-weight: bold;
+}
+
+.ins-exp {
+    font-family: "Rubik", sans-serif;
+    padding-bottom: 1rem;
+    color: white;
+}
+
+.insurance-header {
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    padding: 9rem 1rem 1rem;
+    color: white;
+}
+
+.pad-li {
+    padding-bottom: 1rem;
+}
+
+.accordion-item {
+    font-family: "Rubik", sans-serif;
+}
+
+#acc-head {
+    font-weight: bold;
+}
+
+.accordion-body {
+    font-family: "Rubik", sans-serif;
+}
+.insurance-container {
+    background: url("./insurance.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.acc-exp {
+    padding-bottom: 1rem;
+}
+
+.learn-more  {
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    color: white;
+}
+.cta-ins {
+    margin-top: 1rem;
+}
+@media (min-width: 600px) {
+    .claims-wrapper {
+        width: 50%;
+    }
+    .accordion-item {
+        width: 50%;
+        margin: auto;
+        margin-bottom: .5rem;
+    }
+}

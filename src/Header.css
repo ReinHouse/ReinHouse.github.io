@@ -1,0 +1,54 @@
+#rhd-logo {
+height: 4.5rem;
+}
+
+#call-button {
+    background-color: #0C3C5B;
+    border-radius: 0;
+}
+
+#navbar {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    border-bottom: 3px solid #0C3C5B;
+    z-index: 50;
+}
+
+#nav-toggler {
+    border: none;
+}
+
+#nav-link {
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+@media (min-width: 600px){
+    #nav-link {
+        padding-right: 3.5rem;
+    }
+}
+#nav-link:hover {
+    color: #0C3C5B;
+}
+
+#call-link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+#call-link:hover{
+    opacity: .5;
+}
+
+#phone-icon{
+    width: 2rem;
+    height: auto;
+}
+
+.active{
+    color: #159ACE;
+}
