@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ReinHouse.github.io/static/css/main.16e4d6f3.css",
+    "main.js": "/ReinHouse.github.io/static/js/main.bf7a929a.js",
+    "static/js/787.d88d5a52.chunk.js": "/ReinHouse.github.io/static/js/787.d88d5a52.chunk.js",
+    "static/media/gutter.jpg": "/ReinHouse.github.io/static/media/gutter.f8ee1ead645dbbb9c31c.jpg",
+    "static/media/storm.webp": "/ReinHouse.github.io/static/media/storm.9d5b78b5c60f613d88dc.webp",
+    "static/media/background-image-form.jpg": "/ReinHouse.github.io/static/media/background-image-form.81158936710ac142d4f2.jpg",
+    "static/media/insurance.jpg": "/ReinHouse.github.io/static/media/insurance.4398416baebb0282d853.jpg",
+    "static/media/roofing.jpg": "/ReinHouse.github.io/static/media/roofing.98a9f3ca577ce65f36ba.jpg",
+    "static/media/background-house.jpg": "/ReinHouse.github.io/static/media/background-house.7e2b712108acf7a9d524.jpg",
+    "static/media/siding.jpg": "/ReinHouse.github.io/static/media/siding.c926c71991398f3699db.jpg",
+    "index.html": "/ReinHouse.github.io/index.html",
+    "main.16e4d6f3.css.map": "/ReinHouse.github.io/static/css/main.16e4d6f3.css.map",
+    "main.bf7a929a.js.map": "/ReinHouse.github.io/static/js/main.bf7a929a.js.map",
+    "787.d88d5a52.chunk.js.map": "/ReinHouse.github.io/static/js/787.d88d5a52.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.16e4d6f3.css",
+    "static/js/main.bf7a929a.js"
+  ]
+}
