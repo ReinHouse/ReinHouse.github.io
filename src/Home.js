@@ -50,22 +50,6 @@ const Home = () => {
         </div>
     </div>
 
-    <div class="row justify-content-center">
-      <div class="col-md-4" >
-        <img class="img-responsive image-resize" src="owens-corning-small.jpg" alt="1"/>
-      </div>
-      <div class="col-md-4">
-        <img class="img-responsive image-resize" src="/bbb-logo.png" alt="2"/>
-      </div>
-  </div>
-    
-    <div class="cert-lit">
-      <div>
-        
-        
-      </div>
-    </div>
-
 
 </div>
 )};
