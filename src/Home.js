@@ -23,8 +23,9 @@ const Home = () => {
             <h1 class="what-we-do2">Outdoor Living</h1>
             <hr class="break"></hr>
             <div class="button-wrapper">
-                <button id="btn" class="home-btn"><a href="#/contact-us">CONTACT US ONLINE</a></button>
-                <button id="btn" class="home-btn"><a href="tel:6513009394">CALL: 651-300-9394</a></button>
+                
+                  <button id="btn" class="home-btn"><a href="tel:6513009394">Twin Cities: 651-300-9394</a></button>
+                  <button id="btn" class="home-btn"><a href="tel:7208798827">Denver/Front Range: 720-879-8827</a></button>
             </div>
         </div>
     </div>
@@ -48,6 +49,33 @@ const Home = () => {
             </div></a>
         </div>
     </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-4" >
+        <img class="img-responsive image-resize" src="owens-corning-small.jpg" alt="1"/>
+      </div>
+      <div class="col-md-4">
+        <img class="img-responsive image-resize" src="/bbb-logo.png" alt="2"/>
+      </div>
+  </div>
+    
+    <div class="cert-lit">
+      <div>
+        
+        
+      </div>
+    </div>
+
+
+</div>
+)};
+export default Home;
+
+/*
+
+This is the removed certifications that will be needed to put back on once certifications are gained. For reference on how they were styled and such refer to the client 
+folder and look under Nate Rein for ss.
+
     <div class="cert-lit">
       <div>
         <img class="owens-img" src="owens-corning-small.jpg"/>
@@ -63,7 +91,8 @@ const Home = () => {
           </ul>
       </div>
     </div>
-    <div class="cert-wrapper">
+
+        <div class="cert-wrapper">
         <div id="certs" class="certs container-fluid">
             <img src="/owenscorning.jpg" class="cert-img oc" />
             <img src="/bbb-logo.png" class="cert-img bbb" />
@@ -72,6 +101,5 @@ const Home = () => {
             <img src="/colorado-roofing.jpg" class="cert-img cra" />
         </div>
     </div>
-</div>
-)};
-export default Home;
+
+*/ 

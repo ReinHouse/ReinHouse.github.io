@@ -8,9 +8,10 @@ hr{
 }
 
 .button-wrapper {
-    display: grid;
-    grid-template-columns: 40% 30%;
-    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #btn:hover{
@@ -21,6 +22,7 @@ hr{
     border-radius: 0;
     border: none;
     padding: 5px;
+    margin-right: 5%;
 }
 
 .home-btn {
@@ -281,10 +283,21 @@ body {
 .owens-img {
     padding: 3rem 1rem 2rem;
 }
+
+.image-resize{
+    padding-top: 5%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center center;
+}
+
 .oc-sec > ul {
     width: 90%;
     margin: auto;
 }
+
+
+
 .content-home {
     text-align: left;
     position: absolute;

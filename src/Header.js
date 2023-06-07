@@ -27,7 +27,7 @@ const Header = () => {
                       <a class="nav-link" id="nav-link" href="#/colorado-insurance-contractor-services">INSURANCE</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" id="nav-link" href="#/client-work">CLIENT WORK</a>
+                      <a class="nav-link" id="nav-link" href="#/client-work">OUR CLIENTS</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" id="nav-link" href="#/about-our-roofing-services">ABOUT US</a>
