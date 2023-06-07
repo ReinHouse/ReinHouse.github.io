@@ -23,6 +23,14 @@ const AboutUs = () => (
             <img class="au-img i-2" src="/au-p2.jpg"/>
             <img class="au-img i-3" src="/au-p3.jpg"/>
         </div>
+    </div>
+</div>
+);
+export default AboutUs;
+
+/*
+Put back on once certification is obtained agained
+
         <div class="cert-lit">
             <div>
                 <img class="au-oc-img" src="owens-corning-small.jpg"/>
@@ -33,7 +41,5 @@ const AboutUs = () => (
                 <h3 id="ins-text"><a id="free-in" href="#/contact-us">Get FREE inspection today!</a></h3>
             </div>
         </div>
-    </div>
-</div>
-);
-export default AboutUs;
+
+*/

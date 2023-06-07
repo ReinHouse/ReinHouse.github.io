@@ -54,7 +54,7 @@ const Exteriors = () => (
     </div>
     <div class="storm-restoration-cta">
             <h2>Storm Damage? Visit our Insurance Claims page.</h2>
-            <a id="ins-btn" class="home-btn btn" href="#/storm-insurance-claims-denver">TAKE ME THERE</a>
+            <a id="ins-btn" class="home-btn btn" href="#/colorado-insurance-contractor-services">TAKE ME THERE</a>
             <div class="sty-bar"></div>
         </div>
 
