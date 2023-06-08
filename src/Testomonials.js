@@ -8,7 +8,7 @@ function Testomonials() {
 	<div class="row">
 		<div class="col-md-8 col-center m-auto">
 			<h2 class="testHeader">Testimonials</h2>
-			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
 				
 				<div class="carousel-inner">
 					<div class=" carousel-item active">
