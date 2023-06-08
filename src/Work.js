@@ -2,9 +2,13 @@ import React from "react";
 import Helmet from "react-helmet";
 import styles from "./Work.css";
 import CallToAction from "./CallToAction";
+import Testomonials from "./Testomonials";
+
 const Work = () => (
+  
 <div class="content-container">
     <div class="gallery-container">
+    
         <div class="row">
           <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <img

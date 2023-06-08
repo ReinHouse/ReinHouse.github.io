@@ -6,7 +6,7 @@ const Exteriors = () => (
 <div class="content">
 <div class="r-wrap">
         <div id="roof-banner" class="roof-banner">
-            <h2 class="roof-header">Roofing</h2>
+            <h2 id="roof-header" class="roof-header">Roofing</h2>
         </div>
         <div class="roof-wrapper">
             <img id="roofing-img" class="roof-img" src="/roofing.jpg" />
@@ -18,7 +18,7 @@ const Exteriors = () => (
     </div>
     <div class="s-wrap">
         <div id="siding-banner" class="roof-banner">
-            <h2 class="roof-header">Siding</h2>
+            <h2 id="siding-header" class="roof-header">Siding</h2>
         </div>
         <div class="roof-wrapper">
             <img id="siding-img" class="roof-img" src="/siding.jpg" />
@@ -30,7 +30,7 @@ const Exteriors = () => (
     </div>
     <div class="g-wrap">
         <div id="gutter-banner" class="roof-banner">
-            <h2 class="roof-header">Gutters</h2>
+            <h2 id="gutter-header" class="roof-header">Gutters</h2>
         </div>
         <div class="roof-wrapper">
             <img id="gutter-img" class="roof-img" src="/gutter.jpg" />
@@ -42,10 +42,10 @@ const Exteriors = () => (
     </div>
     <div class="g-wrap">
         <div id="gutter-banner" class="roof-banner">
-            <h2 class="roof-header">Windows</h2>
+            <h2 id="window-header" class="roof-header">Windows</h2>
         </div>
         <div class="roof-wrapper">
-            <img id="gutter-img" class="roof-img" src="/window.jpg" />
+            <img  class="roof-img" src="/window.jpg" />
             <div class="roof-div">
                 <h3 class="ext-rem-head roof-head">Window Installation</h3>
                 <p id="gutter-exp" class="roof-p">Do you have drafty and cold windows? Changing your windows will not only increase your curb appeal, but also improve the energy efficiency and comfort of your home. Customize your windows the way you want them. Choose your color, style, and even how they operate.</p>

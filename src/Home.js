@@ -31,11 +31,11 @@ const Home = () => {
     </div>
     <div class="services-wrapper">
         <div class="services-grid">
-            <Link to="exterior-remodeling-roofing-contractor-denver-colorado/#roofing-img" class="tile-link"><div class="rhd-tile" id="roofing-tile">
+            <Link to="exterior-remodeling-roofing-contractor-denver-colorado/" class="tile-link"><div class="rhd-tile" id="roofing-tile">
                 <h2 class="tile-title">Roofing</h2>
-                <p class="tile-exp">As an Owen's Corning Platinum Certified company, we're a step above most contracting companies. We take care of our customers first, that's why so many Minnesota residents choose us!</p>
+                <p class="tile-exp">Unlock a new level of quality and reliability with our roofing expertise!. We take care of our customers first, that's why so many residents choose us!</p>
             </div></Link>
-            <Link to="exterior-remodeling-roofing-contractor-denver-colorado/#gutter-exp" class="tile-link"><div class="rhd-tile" id="gutter-tile">
+            <Link to="exterior-remodeling-roofing-contractor-denver-colorado/#gutter-img" class="tile-link"><div class="rhd-tile" id="gutter-tile">
                 <h2 class="tile-title">Gutters</h2>
                 <p class="tile-exp">Replacement gutters and gutter guards protect your home against moisture and other forms of water damage such as rot, erosion and mold. We will ensure your rainwater management systems works well.</p>
             </div></Link>
