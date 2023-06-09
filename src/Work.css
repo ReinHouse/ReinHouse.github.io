@@ -6,11 +6,14 @@
 .gallery-container2  {
     width: 90%;
     margin: auto;
+    margin-bottom: -145px;
 }
 
 .testimonialWork{
     padding-top: 30px;
 }
+
+
 
 @media (min-width: 600px) {
     .gallery-container  {
