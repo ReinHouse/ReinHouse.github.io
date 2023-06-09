@@ -7,7 +7,7 @@ import Testomonials from "./Testomonials";
 const Work = () => (
   
 <div class="content-container">
-<Testomonials/>
+<div class="testimonialWork"><Testomonials/></div>
     <div class="gallery-container">
    
     
