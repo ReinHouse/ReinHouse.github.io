@@ -3,6 +3,10 @@
     width: 100%;
 }
 
+.testBodyHome{
+    margin-top: -50px;
+}
+
 hr{
     color: white;
 }
@@ -46,7 +50,8 @@ body {
 
 .content-container {
     max-width: 100%;
-    overflow: hidden;
+     margin-bottom: 150px;
+    height: min-content;
 }
 
 .vid-wrapper {

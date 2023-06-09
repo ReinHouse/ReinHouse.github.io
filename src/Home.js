@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./Home.css"
 import CallToAction from "./CallToAction";
+import Testomonials from "./Testomonials";
 import { HashLink as Link } from "react-router-hash-link";
+
 const Home = () => {
   return (
 <div class="content-container">
@@ -49,8 +51,9 @@ const Home = () => {
             </div></a>
         </div>
     </div>
-
-
+    <div class="testBodyHome">
+    <Testomonials/>
+    </div>
 </div>
 )};
 export default Home;
