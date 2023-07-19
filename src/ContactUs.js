@@ -3,10 +3,10 @@ import CallToAction from "./CallToAction";
 import styles from "./ContactUs.css"
 import emailjs from "emailjs-com";
 const ContactUs = () => {
-    const form = document.getElementById("contact-form");
+    const form = useRef();
     function sendEmail(e) {
         e.preventDefault();
-                emailjs.sendForm('service_tvymhkp', 'template_2i3544p', form, 'YOoamRM3hT-FxQ6ZR')
+                emailjs.sendForm('service_tvymhkp', 'template_2i3544p', form.current, 'YOoamRM3hT-FxQ6ZR')
                     .then((result) => {
                         console.log(result.text); 
                     }, (error) => {
@@ -16,7 +16,7 @@ const ContactUs = () => {
     };
     return(
     <div id="contact-page-wrapper">
-        <form id="contact-form" onSubmit={sendEmail}>
+        <form ref={form} onSubmit={sendEmail}>
             <div class="contact-form-bg">
                 <h1 class="form-title">FREE Storm Report and FREE Roof Inspection</h1>
                 <div class="form-group name-group">
