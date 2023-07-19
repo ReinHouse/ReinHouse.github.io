@@ -16,7 +16,7 @@ const ContactUs = () => {
     };
     return(
     <div id="contact-page-wrapper">
-        <form ref={form} onSubmit={sendEmail}>
+        <form ref={form} id="contact-form" onSubmit={sendEmail}>
             <div class="contact-form-bg">
                 <h1 class="form-title">FREE Storm Report and FREE Roof Inspection</h1>
                 <div class="form-group name-group">
