@@ -10,6 +10,7 @@ const ContactUs = () => {
                     .then((result) => {
                         console.log(result.text); 
                         form.current.reset();
+                        alert("Contact form sent successfully!");
                     }, (error) => {
                         console.log(error.text);
                     });
