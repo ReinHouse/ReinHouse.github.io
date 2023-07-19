@@ -115,7 +115,7 @@ const ContactUs = () => {
                   <textarea placeholder="Project Description" name="project-desc" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
             </div>
-            <input id="btn" value="SEND" class="form-button" type="submit"/>
+            <input id="btn" value="SEND" class="form-button" type="submit"></input>
         </form>
         <div class="phn">
             <a href="tel:6513009394"><button class="btn call-btn">TWIN CITIES: 651-300-9394</button></a>
