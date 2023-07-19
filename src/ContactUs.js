@@ -119,7 +119,7 @@ const ContactUs = () => {
         </form>
         <div class="phn">
             <a href="tel:6513009394"><button class="btn call-btn">TWIN CITIES: 651-300-9394</button></a>
-            <a href="tel:6513009394"><button class="btn call-btn">DENVER/FRONT RANGE 720-879-8827</button></a>
+            <a href="tel:7208798827"><button class="btn call-btn">DENVER/FRONT RANGE 720-879-8827</button></a>
         </div>
     </div>
 )};
