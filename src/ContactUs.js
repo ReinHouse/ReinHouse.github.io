@@ -7,8 +7,8 @@ const ContactUs = () => {
     function sendEmail(e) {
         e.preventDefault();
                 emailjs.sendForm('service_tvymhkp', 'template_2i3544p', form, 'YOoamRM3hT-FxQ6ZR')
-                    .then((result) => {
-                        console.log(result.text); 
+                    .then((result) =>  {
+                        window.location.reload()  //This is if you still want the page to reload (since e.preventDefault() cancelled that behavior) 
                     }, (error) => {
                         console.log(error.text);
                     });
