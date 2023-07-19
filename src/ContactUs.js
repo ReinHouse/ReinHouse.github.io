@@ -9,6 +9,7 @@ const ContactUs = () => {
                 emailjs.sendForm('service_tvymhkp', 'template_2i3544p', form.current, 'YOoamRM3hT-FxQ6ZR')
                     .then((result) => {
                         console.log(result.text); 
+                        form.current.reset();
                     }, (error) => {
                         console.log(error.text);
                     });
