@@ -12,7 +12,7 @@ const ContactUs = () => {
                     }, (error) => {
                         console.log(error.text);
                     });
-                    form.reset();
+                    e.target.reset();
     };
     return(
     <div id="contact-page-wrapper">
