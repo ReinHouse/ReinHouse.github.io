@@ -1,7 +1,7 @@
 import React, {useRef} from "react";
 import CallToAction from "./CallToAction";
 import styles from "./ContactUs.css"
-import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs-com";
 const ContactUs = () => {
     const form = document.getElementById("contact-form");
     function sendEmail(e) {
